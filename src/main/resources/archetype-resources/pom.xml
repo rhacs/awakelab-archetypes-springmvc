@@ -43,6 +43,32 @@
         <org.junit.jupiter-version>5.6.2</org.junit.jupiter-version>
     </properties>
 
+    <!-- Información de el o los Desarrolladores -->
+    <developers>
+        <!-- Ejemplo -->
+        <developer>
+            <!-- Correo electrónico -->
+            <email>awaker@awakelab.cl</email>
+
+            <!-- Identificador único (Nombre de usuario, nickname, etc.) -->
+            <id>Awaker</id>
+
+            <!-- Nombre Completo o Parcial -->
+            <name>Awaker Awakerino</name>
+
+            <!-- Zona horaria donde te encuentras -->
+            <timezone>America/Santiago</timezone>
+
+            <!-- Roles del desarrollador -->
+            <roles>
+                <role>Developer</role>
+                <role>Architect</role>
+                <role>DBA</role>
+                <role>...</role>
+            </roles>
+        </developer>
+    </developers>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
