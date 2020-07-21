@@ -119,7 +119,7 @@
 
     <build>
         <!-- Nombre del archivo final de empaquetado -->
-        <finalName>${proyect.artifactId}-${proyect.version}</finalName>
+        <finalName>${project.artifactId}-${project.version}</finalName>
 
         <!-- Listado de Plugins a utilizar -->
         <plugins>
