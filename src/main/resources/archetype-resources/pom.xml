@@ -5,9 +5,15 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- Información del Proyecto -->
     <groupId>${groupId}</groupId>
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
+    <packaging>war</packaging>
+
+    <!-- Editar el nombre (name) y la descripción (description) del Proyecto -->
+    <name>AwakeLab Maven Spring MVC</name>
+    <description>Proyecto Spring MVC con implementaciones basicas</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
