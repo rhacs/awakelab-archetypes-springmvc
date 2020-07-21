@@ -19,6 +19,13 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <licenses>
+        <license>
+            <name>GNU General Public License version 3</name>
+            <url>https://opensource.org/licenses/gpl-3.0.html</url>
+        </license>
+    </licenses>
+
     <build>
         <finalName>${project.artifactId}-${project.version}</finalName>
 
