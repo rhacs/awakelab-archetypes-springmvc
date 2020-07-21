@@ -9,8 +9,9 @@
     <artifactId>awakelab-archetypes-springmvc</artifactId>
     <version>1.0.5-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
-    <name>Archetype - awakelab-archetypes-springmvc</name>
-    <url>http://www.example.com</url>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <url>https://github.com/rhacs/awakelab-archetypes-springmvc</url>
+    <description>Arquetipo para proyectos bajo Spring Web MVC con implementaciones basicas (Incluye: Spring Framework v5.2.7, Java Servlet API v4.0.1, JSP API v2.3.3, JSTL v1.2, JUnit v5.6.2)</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
